@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/9073/9073032.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#1a1a1a" />
+    <meta
+      name="description"
+      content="LOOPROOM - Real-time Chat Application"
+    />
+    <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/9073/9073032.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="LOOPROOM" />
+    <meta property="og:description" content="Join the conversation in LOOPROOM - A modern real-time chat application" />
+    <meta property="og:image" content="https://cdn-icons-png.flaticon.com/512/9073/9073032.png" />
+    <meta property="og:url" content="https://looproom.chat" />
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="LOOPROOM">
+    <meta name="twitter:description" content="Join the conversation in LOOPROOM - A modern real-time chat application">
+    <meta name="twitter:image" content="https://cdn-icons-png.flaticon.com/512/9073/9073032.png">
+
+    <!-- PWA Meta Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="LOOPROOM">
+
+    <!-- Base Styles -->
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background: #1a1a1a;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+          'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+          sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      #root {
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+      }
+
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 4px;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 4px;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background: rgba(255, 255, 255, 0.4);
+      }
+    </style>
+
+    <title>LOOPROOM | Real-time Chat</title>
+  </head>
+  <body>
+    <noscript>
+      <div style="color: white; text-align: center; padding: 2rem;">
+        You need to enable JavaScript to run LOOPROOM.
+      </div>
+    </noscript>
+    <div id="root"></div>
+  </body>
+</html>
