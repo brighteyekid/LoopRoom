@@ -1,6 +1,4 @@
-Here's your README in a structured and well-formatted layout:
 
-```markdown
 <div align="center">
   <img src="https://cdn-icons-png.flaticon.com/512/9073/9073032.png" alt="LOOPROOM Logo" width="200"/>
   <h1>LOOPROOM</h1>
