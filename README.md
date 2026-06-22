@@ -49,7 +49,7 @@
 - PostgreSQL 13 or higher
 - Gradle 7.x or higher
 
-### Backend Setup
+### Backend Setups
 
 ```bash
 # Clone the repository
