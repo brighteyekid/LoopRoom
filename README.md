@@ -11,7 +11,7 @@
   [![TypeScript](https://img.shields.io/badge/TypeScript-5.0.0-blue.svg)](https://www.typescriptlang.org/)
 </div>
 
-## ✨ Features
+## ✨ Features as followa
 
 - **💬 Real-time Messaging**: Instant communication with WebSocket.
 - **🎨 Modern UI**: Responsive design with smooth animations.
